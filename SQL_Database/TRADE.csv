@@ -1,0 +1,15 @@
+﻿ItemCode,PurchaseDate,ItemName,ItemPrice,Category
+1,27-09-24,Pizza,2.00,Food
+2,27-09-24,Bread,0.50,Food
+3,28-09-24,Apple,1.00,Food
+4,28-09-24,Banana,0.50,Food
+5,28-09-24,Mango,1.00,Food
+6,29-09-24,Pens,1.00,Stationary
+7,29-09-24,Notebooks,2.00,Stationary
+8,30-09-24,Markers,1.00,Stationary
+9,01-10-24,Chair,2.00,Furniture
+10,01-10-24,Table,3.00,Furniture
+11,02-10-24,Keyboard,2.00,Electronics
+12,02-10-24,Mouse,2.00,Electronics
+13,03-10-24,Calculator,1.00,Electronics
+14,03-10-24,USB Memory,1.00,Electronics
