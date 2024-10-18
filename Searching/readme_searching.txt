@@ -1,0 +1,1 @@
+Basic searching algorithms e.g., binary search
