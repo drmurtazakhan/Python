@@ -1,0 +1,1 @@
+This folder contains Python code related to natural language processing (NLP)
