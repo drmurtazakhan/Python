@@ -1,12 +1,3 @@
-## Ref.
-## Gradient Boosted Diabetes Prediction: 97.4% acc.
-## https://www.kaggle.com/code/chriss4123/gradient-boosted-diabetes-prediction-97-4-acc
-
-## dataset https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
-## My work on Kaggle
-## Sign in using Google account khanmapk@gmail.com
-## https://www.kaggle.com/code/drmurtazaakhan/notebook32833ee846/edit
-
 import pandas as pd
 import xgboost as xgb
 from xgboost import XGBClassifier
@@ -211,19 +202,9 @@ xgb.plot_importance(model)
 plt.show(block=True)
 
 print ("------  THE END   ----------")
-'''
-# The purpose of this note book is to find the model by which we can 
-classify 'Normal' or 'Not Normal'('Slow' or 'Aggressive'). 
-So I replaced 'Class' by '0' or '1' for binary classification.
 
-
-df_train.groupby('Class')['Class'].count().plot.bar()
-plt.show(block=False)
-
-
-sns.boxplot(x='Class', y='AccX',data=df_train)
-plt.show(block=False)
-
-sns.heatmap(df_train.corr(),annot=True, cbar=True, cmap='Blues', fmt='.1f')
-plt.show(block=False)
-''' 
+## ResearchGate: http://www.researchgate.net/profile/Murtaza_Khan2/
+## LinkedIn: https://www.linkedin.com/in/dr-murtaza-ali-khan-3b368019
+## Google Scholar: https://scholar.google.com/citations?user=n0JDQ0sAAAAJ
+## Scopus: https://www.scopus.com/authid/detail.uri?authorId=7410318323
+## GitHub: https://github.com/drmurtazakhan
