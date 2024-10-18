@@ -1,1 +1,0 @@
-Python implementation of basic algorithms e.g., factorial, gcd, lcm, etc
