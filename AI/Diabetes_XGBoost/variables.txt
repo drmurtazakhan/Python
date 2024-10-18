@@ -1,0 +1,14 @@
+nine input variables
+-----
+gender
+age
+hypertension
+heart_disease
+smoking_history
+bmi
+HbA1c_level
+blood_glucose_level
+
+one output variable
+-------
+diabetes (0 for no, 1 for yes)
