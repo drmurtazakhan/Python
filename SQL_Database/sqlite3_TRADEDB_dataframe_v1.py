@@ -68,3 +68,9 @@ df_Count_Price = pd.DataFrame({"Count":countByCategory,"Price":pricetByCategory}
 ax = df_Count_Price.plot.bar(color=["SkyBlue","IndianRed"], rot=0, title="Count & Price of items in each Category")
 
 connection.close()
+
+## ResearchGate: http://www.researchgate.net/profile/Murtaza_Khan2/
+## LinkedIn: https://www.linkedin.com/in/dr-murtaza-ali-khan-3b368019
+## Google Scholar: https://scholar.google.com/citations?user=n0JDQ0sAAAAJ
+## Scopus: https://www.scopus.com/authid/detail.uri?authorId=7410318323
+## GitHub: https://github.com/drmurtazakhan
