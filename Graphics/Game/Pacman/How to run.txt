@@ -1,0 +1,23 @@
+I have multiple installation of Python (3.14, 3.12)
+We have created a virtual Python environment for Python 3.12. The name of this virtual environment is venv_pygame
+----------------------------------------------
+
+Step 1: 
+Richt click Open the Python Folder in VS Code, e.g.,
+J:\Python\
+
+Step 2:
+Press Ctrl+Shift+P → type "Python: Select Interpreter" → choose the one that shows venv_pygame
+
+Step 3:
+On Power Shell run the following command:
+.\venv_pygame\Scripts\Activate.ps1
+
+The prompt will change to: "(venv_pygame) PS Pacman>"
+
+Step 4:
+On Power Shell run the following command:
+cd Graphics\Game\Pacman
+
+Step 4: On the (venv_pygame) prompt run the following command:
+python.exe pacman.py

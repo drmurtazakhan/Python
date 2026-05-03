@@ -1,0 +1,9 @@
+Albertson,Birmingham,Alabama
+Minh,Birmingham,Alabama
+Lawrence,Montgomery,Alabama
+Smith,Anchorage,Alaska
+Young,Anchorage,Alaska
+Davis,Fairbanks,Alaska
+Yamamoto,Juneau,Alaska
+Zimmer,Juneau,Alaska
+Edwards,Phoenix,Arizona
