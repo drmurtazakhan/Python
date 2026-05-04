@@ -12,7 +12,7 @@ BLUE = (0, 0, 255)
 WHITE = (255, 255, 255)
 
 # Circle properties
-radius = 30
+radius = 70
 x, y = 0, 0   # start at top-left
 
 # Different increments
