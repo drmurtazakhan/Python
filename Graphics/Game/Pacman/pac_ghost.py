@@ -1,9 +1,9 @@
+# pac_ghost.py
 import pygame
 import random   # Used to generate random movement for ghost
 
 # Initialize pygame
 pygame.init()
-
 # -------------------------------
 # Screen setup
 # -------------------------------
