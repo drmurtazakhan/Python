@@ -1,0 +1,4 @@
+Alice Smith,123 Maple St,27.50
+Bob Jones,456 Oak Ave,21.75
+Charlie Brown,789 Pine Rd,32.00
+Diana Prince,101 Liberty Ln,24.00

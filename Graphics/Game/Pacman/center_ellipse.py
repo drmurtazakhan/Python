@@ -3,13 +3,13 @@ import pygame
 pygame.init()
 
 # Window setup
-width, height = 800, 600
+width, height = 400, 300
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Draw Ellipse")
 
 # Colors
-YELLOW = (255, 255, 0)
-BLACK = (0, 0, 0)
+MAGENTA = (255, 0, 255)
+WHITE = (255, 255, 255)
 
 # Ellipse size
 ellipse_width = 200
@@ -26,12 +26,11 @@ while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
-
-    # Background
-    screen.fill(BLACK)
-
+    
+    screen.fill(WHITE) # Background
+    
     # Draw ellipse (inside a rectangle area)
-    pygame.draw.ellipse(screen, YELLOW, (ellipse_x, ellipse_y, ellipse_width, ellipse_height))
+    pygame.draw.ellipse(screen, MAGENTA, (ellipse_x, ellipse_y, ellipse_width, ellipse_height))
 
     pygame.display.flip()
     clock.tick(60)

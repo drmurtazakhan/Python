@@ -3,16 +3,15 @@ import pygame
 pygame.init()
 
 # Window setup
-width, height = 800, 600
+width, height = 400, 300
 screen = pygame.display.set_mode((width, height))
 pygame.display.set_caption("Center Circle")
 
 # Colors
-YELLOW = (255, 255, 0)
+GREEN = (0, 255, 0)
 BLACK = (0, 0, 0)
 
-# Circle radius
-radius = 50
+radius = 50 # Circle radius
 
 # Center position
 center_x = width // 2
@@ -30,7 +29,8 @@ while running:
     screen.fill(BLACK)
 
     # Draw circle (centered)
-    pygame.draw.circle(screen, YELLOW, (center_x, center_y), radius)
+    pygame.draw.circle(screen, GREEN, (center_x, center_y), radius)
+    #pygame.draw.circle(screen, GREEN, (0, 0), radius)
 
     pygame.display.flip()
     clock.tick(60)
