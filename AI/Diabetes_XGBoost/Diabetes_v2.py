@@ -56,10 +56,59 @@ labelsDiabetes = ['0', '1']
 valuesDiabetes = df['diabetes'].value_counts(sort=False).values
 dfDiabetes = pd.DataFrame({"diabetes": labelsDiabetes, "Count": valuesDiabetes})
 print(dfDiabetes)
+print ("--------------------------------------------")
+## -------------------------------------------------------
+# Diabetes & bmi
+count_bmi_normal = len(df[ (df.bmi < 25)])
+percent_count_bmi_normal = (count_bmi_normal/samples)*100
 
-df_NoDiabetes_HighGlucose = df[ (df.blood_glucose_level>180) & (df.diabetes==0)]
-print('Number Of Samples with NoDiabetes and High Glucose ', len(df_NoDiabetes_HighGlucose))
+count_bmi_overweight = len(df[ (df.bmi >= 25) & (df.bmi < 30)])
+percent_count_bmi_overweight = (count_bmi_overweight/samples)*100
 
+
+count_bmi_obese = len(df[ (df.bmi >= 30) & (df.bmi < 40)])
+percent_count_bmi_obese = (count_bmi_obese/samples)*100
+
+count_bmi_morbidlyObese = len(df[ (df.bmi >= 40)])
+percent_count_bmi_morbidlyObese = (count_bmi_morbidlyObese/samples)*100
+
+# Smoking Statistics
+labelsBMI = ['Normal', 'Overweight', 'Obese', 'Morbidly-Obese']
+valuesBMI =[count_bmi_normal, count_bmi_overweight, count_bmi_obese, count_bmi_morbidlyObese]
+percent_valuesBMI =[percent_count_bmi_normal, 
+                    percent_count_bmi_overweight,
+                    percent_count_bmi_obese,
+                    percent_count_bmi_morbidlyObese]
+
+dfBMI_4Types = pd.DataFrame({"BMI": labelsBMI, "Count": valuesBMI, "PercentOfAll": percent_valuesBMI})
+print(dfBMI_4Types)
+print ("--------------------------------------------")
+
+## -------------------------------------------------------
+# Diabetes & blood_glucose_level
+count_HighGlucose_NoDiabetes = len(df[ (df.blood_glucose_level > 180) & (df.diabetes==0)])
+print('Number Of Samples with no Diabetes and High Glucose are', count_HighGlucose_NoDiabetes)
+
+
+# Diabetes & Age <=65
+count_AgeEqOrLess65 = len(df[ (df.age <= 65)])
+percent_count_AgeEqOrLess65 = (count_AgeEqOrLess65/samples)*100
+print("Number Of Samples age less than or equal 65 are %.0f (%.2f%% of %.0f) " % (count_AgeEqOrLess65, percent_count_AgeEqOrLess65, samples))
+
+
+count_AgeEqOrLess65_Diabetes = len(df[ (df.age <= 65) & (df.diabetes==1)])
+percent_AgeEqOrLess65_Diabetes = (count_AgeEqOrLess65_Diabetes/count_AgeEqOrLess65) * 100
+print("Number Of Samples age less than or equal 65 with Diabetes are %.0f (%.2f%% of %.0f) " % (count_AgeEqOrLess65_Diabetes, percent_AgeEqOrLess65_Diabetes, count_AgeEqOrLess65))
+
+# Diabetes & Age > 65
+count_AgeAbove65 = len(df[ (df.age > 65)])
+percent_count_AgeAbove65 = (count_AgeAbove65/samples)*100
+print("Number Of Samples age above 65 are %.0f (%.2f%% of %.0f) " % (count_AgeAbove65, percent_count_AgeAbove65, samples))
+
+count_AgeAbove65Diabetes = len(df[ (df.age > 65) & (df.diabetes==1)])
+percent_AgeAbove65Diabetes = (count_AgeAbove65Diabetes/count_AgeAbove65)*100
+print("Number Of Samples age above 65 with Diabetes are %.0f (%.2f%% of %.0f) " % (count_AgeAbove65Diabetes, percent_AgeAbove65Diabetes, count_AgeAbove65))
+## -------------------------------------------------------
 
 print ("--------------------------------------------")
 plt.style.use('fivethirtyeight')
@@ -124,8 +173,8 @@ numerical = ['age', 'bmi', 'blood_glucose_level', 'HbA1c_level']
     # percent: normalize such that bar heights sum to 100
     # density: normalize such that the total area of the histogram equals 1
 
-#AggregateStat="percent"  
-AggregateStat="density"  
+AggregateStat="percent"  
+#AggregateStat="density"  
 
 
 noOfBins = 10;

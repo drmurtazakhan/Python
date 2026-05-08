@@ -46,8 +46,8 @@ while running:
     screen.blit(text_surface, (20, 20))
 
     # Move circle
-    x += dx
-    y += dy
+    x += dx # 0, 3, 6, ...
+    y += dy # 0, 2, 4, ...
 
     pygame.display.flip()
 

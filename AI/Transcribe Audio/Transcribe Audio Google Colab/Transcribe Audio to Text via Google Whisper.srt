@@ -1,0 +1,560 @@
+1
+00:00:00,720 --> 00:00:03,719
+Hello, everyone, and welcome back  to my channel, Jennifer Marie,
+
+2
+00:00:03,720 --> 00:00:06,160
+where I teach you different  ways to make money online
+
+3
+00:00:06,160 --> 00:00:08,800
+and how to become a work-from-home freelancer.
+
+4
+00:00:08,800 --> 00:00:12,400
+So some of my most popular videos  talk to you about transcription,
+
+5
+00:00:12,400 --> 00:00:16,039
+how to transcribe audio to  text, and in today's tutorial,
+
+6
+00:00:16,039 --> 00:00:20,280
+I'm excited to show you how  you can convert audio files
+
+7
+00:00:20,280 --> 00:00:25,520
+or video files to text completely  for free without any limit.
+
+8
+00:00:25,519 --> 00:00:28,800
+We are going to be using something called Whisper,
+
+9
+00:00:28,800 --> 00:00:30,679
+and Whisper is a machine learning model
+
+10
+00:00:30,679 --> 00:00:33,320
+for speech recognition and transcription.
+
+11
+00:00:33,320 --> 00:00:35,560
+And it's created by Open AI.
+
+12
+00:00:35,560 --> 00:00:38,880
+Open AI are also the creators of ChatGPT.
+
+13
+00:00:38,880 --> 00:00:43,560
+This is completely free, and  Whisper supports 99 languages,
+
+14
+00:00:43,560 --> 00:00:46,560
+so you can convert audio or video files to text
+
+15
+00:00:46,560 --> 00:00:49,679
+in 99 different languages using this method.
+
+16
+00:00:49,679 --> 00:00:52,960
+Now there is a way that you can  install this on your computer.
+
+17
+00:00:52,960 --> 00:00:57,039
+But I know a lot of you don't have  really fast, powerful computers.
+
+18
+00:00:57,039 --> 00:00:59,920
+So in this method, we will not  be installing it on our computer.
+
+19
+00:01:00,479 --> 00:01:05,679
+Instead, we're going to use Google  Colaboratory within our Google Drive account.
+
+20
+00:01:05,680 --> 00:01:09,800
+And this method allows you to write  and run code directly in your browser.
+
+21
+00:01:09,799 --> 00:01:12,439
+So that way you could do this  if you're on your computer,
+
+22
+00:01:12,439 --> 00:01:14,280
+your friend's computer, at work,
+
+23
+00:01:14,280 --> 00:01:18,879
+because you're not installing  something on the computer itself.
+
+24
+00:01:18,879 --> 00:01:22,159
+Okay, so first of all, let's open Google Drive.
+
+25
+00:01:22,159 --> 00:01:25,640
+All you need is your Gmail  account to access Google Drive,
+
+26
+00:01:25,640 --> 00:01:27,280
+and it's also free.
+
+27
+00:01:27,280 --> 00:01:30,280
+Then you're going to click here on New.
+
+28
+00:01:30,280 --> 00:01:33,120
+Then go down and click More.
+
+29
+00:01:33,120 --> 00:01:35,840
+Then click Connect More Apps.
+
+30
+00:01:35,840 --> 00:01:39,760
+So now we have to search for  the app that we want to install.
+
+31
+00:01:39,760 --> 00:01:45,240
+So click on Search apps, and type in Colaboratory.
+
+32
+00:01:45,239 --> 00:01:48,920
+And you're going to click on  the first one that pops up.
+
+33
+00:01:48,920 --> 00:01:51,600
+And now just click Install.
+
+34
+00:01:51,599 --> 00:01:53,239
+Then click Continue.
+
+35
+00:01:53,239 --> 00:01:55,839
+They may ask you to sign in  with your Google account.
+
+36
+00:01:55,840 --> 00:02:01,439
+So just click on your Google account,  and it will be installed instantly.
+
+37
+00:02:01,439 --> 00:02:07,200
+So now just click Done and close  off the marketplace window.
+
+38
+00:02:07,200 --> 00:02:09,560
+And now we have to open Google Colaboratory.
+
+39
+00:02:09,560 --> 00:02:13,360
+So to open it, just click on new once again.
+
+40
+00:02:13,360 --> 00:02:18,280
+Click on More, and it will show  up right here Google Colaboratory.
+
+41
+00:02:18,280 --> 00:02:19,560
+So just click that.
+
+42
+00:02:19,560 --> 00:02:25,120
+So I'm going to do a demo of how we can  transcribe an audio file and a video file.
+
+43
+00:02:25,120 --> 00:02:28,200
+So first, we're going to transcribe an audio file.
+
+44
+00:02:28,199 --> 00:02:32,519
+Double click where it says  Untitled to rename the file,
+
+45
+00:02:32,520 --> 00:02:36,159
+but keep the extension as  it is and then press Enter.
+
+46
+00:02:36,159 --> 00:02:41,479
+So now click on Runtime and  click Change runtime type.
+
+47
+00:02:41,479 --> 00:02:48,359
+So we want to change the hardware  accelerator from CPU to T4 GPU,
+
+48
+00:02:48,360 --> 00:02:50,200
+then click Save.
+
+49
+00:02:50,199 --> 00:02:54,439
+So now we need to install Whisper AI and FFmpeg
+
+50
+00:02:54,439 --> 00:02:58,079
+to be able to work with  both audio and video files.
+
+51
+00:02:58,080 --> 00:03:01,680
+And remember, we are not  installing this on our computer 
+
+52
+00:03:01,680 --> 00:03:04,319
+but instead in Google Colab.
+
+53
+00:03:04,319 --> 00:03:07,719
+And this might seem complicated,  but just follow the instructions
+
+54
+00:03:07,719 --> 00:03:10,080
+and you'll see how easy it is.
+
+55
+00:03:10,080 --> 00:03:14,480
+So in the description below,  I have pasted this code.
+
+56
+00:03:14,479 --> 00:03:20,119
+So go into the description below  and copy and paste this exact code.
+
+57
+00:03:20,120 --> 00:03:23,960
+And you're going to paste  it in this field right here.
+
+58
+00:03:23,960 --> 00:03:28,200
+Then click Run Cell on this icon to run the code.
+
+59
+00:03:28,199 --> 00:03:31,879
+And this will go ahead and  install Whisper and FFmpeg.
+
+60
+00:03:31,879 --> 00:03:34,879
+And it should only take a few minutes.
+
+61
+00:03:34,879 --> 00:03:38,120
+You can see here it took three minutes to install.
+
+62
+00:03:38,120 --> 00:03:41,759
+So now we're ready to upload our file on the left,
+
+63
+00:03:41,759 --> 00:03:44,079
+click here on this folder icon.
+
+64
+00:03:44,080 --> 00:03:47,360
+And what you're going to do is drag and drop
+
+65
+00:03:47,360 --> 00:03:52,640
+your audio or video file into  this section here on the left.
+
+66
+00:03:52,639 --> 00:03:56,919
+So this warning will pop up basically  telling you to save your files
+
+67
+00:03:56,919 --> 00:03:59,679
+on your computer because the runtimes files
+
+68
+00:03:59,680 --> 00:04:03,120
+will be deleted when this runtime is terminated.
+
+69
+00:04:03,120 --> 00:04:04,920
+So once it's finished transcribing,
+
+70
+00:04:04,919 --> 00:04:08,039
+and you're finished your session on Google Colab,
+
+71
+00:04:08,039 --> 00:04:11,479
+it will erase this audio or video file.
+
+72
+00:04:11,479 --> 00:04:15,159
+So now we want to get the text from this file.
+
+73
+00:04:15,159 --> 00:04:21,120
+So click here on Code, and we're  going to insert this code here.
+
+74
+00:04:21,120 --> 00:04:25,519
+Again, I have pasted this  code in the description below.
+
+75
+00:04:25,519 --> 00:04:29,439
+So paste that in here and  then replace your file name
+
+76
+00:04:29,439 --> 00:04:35,680
+with your exact file name including  the spaces and the extension.
+
+77
+00:04:35,680 --> 00:04:44,639
+So in my case, it was  Corporate-Sample.mp3, then click Run Cell.
+
+78
+00:04:44,639 --> 00:04:48,959
+So that will begin extracting  the text from the file.
+
+79
+00:04:48,959 --> 00:04:53,359
+You can see it's automatically  detecting that this file is in English.
+
+80
+00:04:53,360 --> 00:04:56,480
+And right here it is transcribing it perfectly
+
+81
+00:04:56,480 --> 00:05:01,319
+with punctuation, capitalization,  and even with time stamps.
+
+82
+00:05:01,319 --> 00:05:04,839
+So in our first demo, this  is around a two minute file.
+
+83
+00:05:04,839 --> 00:05:08,719
+So we're going to see how long it  takes to transcribe a two minute file.
+
+84
+00:05:08,720 --> 00:05:11,280
+You can see it took 50 seconds.
+
+85
+00:05:11,279 --> 00:05:15,799
+So in order to download this  transcript, just wait a few seconds,
+
+86
+00:05:15,800 --> 00:05:19,079
+and you will have a few different  options on the side here.
+
+87
+00:05:19,079 --> 00:05:23,919
+So you can see here, there's a .srt  file, which is your typical subtitle file
+
+88
+00:05:23,920 --> 00:05:28,759
+that you can upload to YouTube,  for example, and a .txt file.
+
+89
+00:05:28,759 --> 00:05:33,319
+If these haven't popped up for you,  just click on the Refresh icon here.
+
+90
+00:05:33,319 --> 00:05:38,000
+So to download any of these  files, let's try the .txt, one,
+
+91
+00:05:38,000 --> 00:05:43,959
+just hover over it, and then click  on the icon here and click Download.
+
+92
+00:05:43,959 --> 00:05:46,079
+And let's do the same for the subtitle file.
+
+93
+00:05:46,079 --> 00:05:48,399
+And I'll show you what they look like.
+
+94
+00:05:48,399 --> 00:05:52,959
+So this is the . txt file, and you  can see it's done an amazing job.
+
+95
+00:05:52,959 --> 00:05:54,439
+This is perfect.
+
+96
+00:05:54,439 --> 00:05:58,680
+There's punctuation; it's broken  up the sentences correctly,
+
+97
+00:05:58,680 --> 00:06:00,840
+It's even used hyphens correctly.
+
+98
+00:06:00,839 --> 00:06:06,359
+And if we open up the .srt file, you  can see it has done captions for us.
+
+99
+00:06:06,360 --> 00:06:09,360
+So we could go ahead and upload this to YouTube.
+
+100
+00:06:09,360 --> 00:06:13,560
+So now I want to quickly show you what  it's like when you upload a video file.
+
+101
+00:06:13,560 --> 00:06:17,720
+And this video file is around 12 minutes long.
+
+102
+00:06:17,720 --> 00:06:22,680
+So once again, you're going to drag and  drop your file over here on the left,
+
+103
+00:06:22,680 --> 00:06:25,400
+and the file will start to upload.
+
+104
+00:06:25,399 --> 00:06:28,799
+And once the file has finished uploading,  you'll see it in the list here.
+
+105
+00:06:28,800 --> 00:06:31,560
+So you can see types of sentences.
+
+106
+00:06:31,560 --> 00:06:34,800
+And once again, you're going to click on Code.
+
+107
+00:06:34,800 --> 00:06:37,960
+And we're going to paste what we did before.
+
+108
+00:06:37,959 --> 00:06:41,039
+Again, you can find this code  in the description below.
+
+109
+00:06:41,040 --> 00:06:43,600
+So we have to replace your file name,
+
+110
+00:06:44,279 --> 00:06:46,799
+and in this case, it's a really long file name.
+
+111
+00:06:46,800 --> 00:06:48,319
+And I don't feel like typing it out.
+
+112
+00:06:48,319 --> 00:06:52,800
+So I can actually rename it by  hovering my mouse over the file   
+
+113
+00:06:52,800 --> 00:06:55,400
+and clicking on the three dots icon.
+
+114
+00:06:55,399 --> 00:06:57,239
+And then click Rename file.
+
+115
+00:06:57,240 --> 00:07:01,079
+I'm going to rename this to  Sentences, so it's easier.
+
+116
+00:07:01,079 --> 00:07:04,759
+So now replace your file name with sentences.
+
+117
+00:07:04,759 --> 00:07:06,480
+And remember to put the extension.
+
+118
+00:07:06,480 --> 00:07:08,800
+It won't work if you don't put the extension,
+
+119
+00:07:08,800 --> 00:07:15,480
+so Sentences.mp4 in this  case, and then click Run cell.
+
+120
+00:07:15,480 --> 00:07:20,240
+So once again, it's going to begin transcribing.
+
+121
+00:07:20,240 --> 00:07:25,840
+And it only took two minutes to  transcribe this 12 minute file.
+
+122
+00:07:25,839 --> 00:07:27,639
+And if you know anything about transcription,
+
+123
+00:07:27,639 --> 00:07:31,919
+you know it takes a long time  to manually type this out,
+
+124
+00:07:31,920 --> 00:07:36,439
+especially considering it's added punctuation  and capitalization and everything else.
+
+125
+00:07:36,439 --> 00:07:38,000
+So again, if you wait a few seconds,
+
+126
+00:07:38,000 --> 00:07:43,319
+you can see here we can download  the .txt file or the .srt file.
+
+127
+00:07:43,319 --> 00:07:47,000
+And it's done an amazing job so quickly.
+
+128
+00:07:47,000 --> 00:07:52,920
+So you can go ahead and transcribe as  many files as you like using this method.
+
+129
+00:07:52,920 --> 00:07:56,160
+Now once you're done your session  and you close Google Drive,
+
+130
+00:07:56,160 --> 00:07:58,720
+when you open it again to transcribe,
+
+131
+00:07:58,720 --> 00:08:01,440
+you'll have to repeat this process once again.
+
+132
+00:08:01,439 --> 00:08:05,439
+So it does take around three  minutes or so to install Whisper,
+
+133
+00:08:05,439 --> 00:08:09,279
+but it's definitely worth it,  considering how fast it transcribes.
+
+134
+00:08:09,279 --> 00:08:12,959
+And if you were to do this  manually, it could take you hours.
+
+135
+00:08:12,959 --> 00:08:15,359
+So I hope you guys enjoyed this tutorial.
+
+136
+00:08:15,360 --> 00:08:18,439
+Make sure to subscribe to my channel  for more videos like this one.
+
+137
+00:08:18,439 --> 00:08:21,959
+If you have any questions, feel free  to ask me in the comments section.
+
+138
+00:08:21,959 --> 00:08:23,399
+I really hope you enjoy this.
+
+139
+00:08:23,399 --> 00:08:25,000
+Let me know if it works for you.
+
+140
+00:08:25,000 --> 00:08:28,680
+And I'll see you guys in my next tutorial!
+

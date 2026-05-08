@@ -1,0 +1,6 @@
+print('Never:', countSmoking[0], '(' "%.2f" %((countSmoking[0]/samples)*100),'%)')
+print('No Info:', countSmoking[1], '(' "%.2f" %((countSmoking[1]/samples)*100),'%)')
+print('Former:', countSmoking[2], '(' "%.2f" %((countSmoking[2]/samples)*100),'%)')
+print('Current:', countSmoking[3], '(' "%.2f" %((countSmoking[3]/samples)*100),'%)')
+print('Not current:', countSmoking[4], '(' "%.2f" %((countSmoking[4]/samples)*100),'%)')
+print('Even:', countSmoking[5], '(' "%.2f" %((countSmoking[5]/samples)*100),'%)')

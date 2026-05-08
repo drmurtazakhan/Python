@@ -1,0 +1,50 @@
+https://www.youtube.com/watch?v=3_2McMS4wNM
+https://www.youtube.com/watch?v=3_2McMS4wNM
+
+Transcribe Audio to Text for FREE | Whisper AI Step-by-Step Tutorial
+by Jennifer Marie
+-------------------
+Learn how to transcribe automatically and convert audio to text instantly using OpenAI's Whisper AI in this step-by-step guide for beginners. This method is FREE and you can perform unlimited transcriptions.  Download my FREE eBook with picture guide to this process: https://transcribe.jennifermarievo.com/ 
+
+This is great for converting audio or video files into text. You can automatically transcribe your files and even generate subtitles with timestamps. Whisper AI also adds capitalization, punctuation, and breaks up sentences naturally. It does a great job and is very close to human accuracy. 
+
+I'm going to show you how to run Whisper AI by installing Colaboratory on Google Drive. From here, we'll install Whisper AI, and I'll show you how to upload the audio or video files you want to transcribe.
+
+I'll also show you how to download the text file or subtitle format.
+
+Steps to Use/Install Whisper:
+➡️ Open Google Drive
+➡️ Install Google Colaboratory  
+➡️ Change Runtime Type to GPU
+➡️ Paste this code to Install Whisper:
+!pip install git+https://github.com/openai/whisper.git
+!sudo apt update && sudo apt install ffmpeg
+
+➡️ Upload Audio/Video File
+➡️ Run Whisper by pasting this code:
+!whisper "YOUR FILE NAME" --model medium
+
+➡️ Download .txt or .srt file
+
+Chapters:
+00:00 - What is OpenAI Whisper?
+01:21 - Install Google Colaboratory
+02:25 - Change Runtime type (GPU)
+02:51 - Install Whisper and FFmpeg
+03:40 - Upload Audio or Video File
+04:15 - Run Whisper to Transcribe Automatically
+05:10 - Download Transcript or SRT File
+06:12 - How to Convert Video File
+
+✨ SOCIAL MEDIA:
+Facebook: https://www.facebook.com/jennifermarievo
+Instagram: https://www.instagram.com/jennifermarievo/
+TikTok: https://www.tiktok.com/@jennifermarievo
+
+🎙️ MY EQUIPMENT (affiliate links):
+Blue Yeti Microphone: ▶️ https://amzn.to/3MZT8zP
+Sony ZV-1 Digital Camera: ▶️ https://amzn.to/3Tzf5rN
+
+DISCLOSURE: Some of the links on this site may be affiliate links, meaning I may earn a small commission if you click and make a purchase. This does not affect the price you pay and helps support the operation of this channel.
+
+#whisperai #audiototext #jennifermarie

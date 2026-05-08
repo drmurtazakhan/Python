@@ -33,8 +33,8 @@ while running:
     pygame.draw.circle(screen, BLUE, (x, y), radius)
 
     # Move circle
-    x += dx
-    y += dy
+    x += dx  # 0, 3, 6, ...
+    y += dy  # 0, 2, 4, ...
 
     pygame.display.flip()
 
