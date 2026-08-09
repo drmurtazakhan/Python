@@ -1,0 +1,726 @@
+========================================
+QUESTION #1  (qti_item_VE_IP_1.xml)
+========================================
+• Which of the following is
+• not
+• a property of a B-tree?
+• Keys in a node are sorted. Leftmost key is min, rightmost is max.
+• All leaf nodes are at the same level.
+• All keys are distinct.
+• An internal node with N keys has N - 1 children.
+
+
+========================================
+QUESTION #2  (qti_item_VE_IP_10.xml)
+========================================
+• The following call occurs to search the 2-3-4 tree for key 14:
+• SearchRecursive(14, root)
+• . Does a second recursive call occur? If so, what is the second recursive call's second argument?
+• No, a recursive call does not occur.
+• Yes. The root's child 0 is the second argument.
+• Yes. The root's child 1 is the second argument.
+• Yes. The root's child 2 is the second argument.
+
+
+========================================
+QUESTION #3  (qti_item_VE_IP_11.xml)
+========================================
+• Which 2-3-4 tree is formed after splitting both full nodes?
+
+
+========================================
+QUESTION #4  (qti_item_VE_IP_12.xml)
+========================================
+• During a split operation, which key from the split node moves up into the parent?
+• Key 0
+• Key 1
+• Key 2
+• Depends on if the split node is child 0, 1, or 2 of the parent
+
+
+========================================
+QUESTION #5  (qti_item_VE_IP_13.xml)
+========================================
+• Inserting key 75 into the following 2-3-4 tree causes which nodes to be split?
+• The root node only
+• The root node and the root's child 0
+• The root node and the root's child 2
+• The root node, the root's child0, and the root's child 2
+
+
+========================================
+QUESTION #6  (qti_item_VE_IP_14.xml)
+========================================
+• Which replaces XXX to complete the Tree234 class's Insert() member function?
+• bool
+• Insert
+• int
+• key
+• Node234
+• node
+• nodeParent
+• if
+• root
+• ==
+• nullptr
+• new
+• );
+• return
+• true
+• -&gt;
+• HasKey
+• ))
+• false
+• // Duplicate keys are not allowed
+• GetKeyCount
+• ()
+• Split
+• IsLeaf
+• ())
+• NextNode
+• ),
+• XXX
+• Insert(key, node, nodeParent)
+• node-&gt;InsertKeyWithChildren(key, nullptr, nullptr)
+• nodeParent-&gt;InsertKeyWithChildren(key, nullptr, nullptr)
+• node-&gt;NextNode(key)-&gt;InsertKeyWithChildren(key, nullptr, nullptr)
+
+
+========================================
+QUESTION #7  (qti_item_VE_IP_15.xml)
+========================================
+• What 2-3-4 tree results from inserting 25 into the following tree?
+
+
+========================================
+QUESTION #8  (qti_item_VE_IP_16.xml)
+========================================
+• In the following 2-3-4 tree, a right rotation on the root&#8217;s child 0 moves the child's key _____.
+• 5 into the child's child 0
+• 5 into the root
+• 10 into the root's child 1
+• 10 into the root
+
+
+========================================
+QUESTION #9  (qti_item_VE_IP_17.xml)
+========================================
+• In the following 2-3-4 tree, a left rotation on the node with keys 35 and 50 _____.
+• reduces the height of the tree by 1
+• increases the height of the tree by 1
+• does not change the tree's height
+• is not possible
+
+
+========================================
+QUESTION #10  (qti_item_VE_IP_18.xml)
+========================================
+• The Node234 class's RemoveKey()'s keyIndex argument must be in the range _____.
+• [0, 2]
+• [0, 3]
+• [0, 4]
+• [1, 3]
+
+
+========================================
+QUESTION #11  (qti_item_VE_IP_19.xml)
+========================================
+• Which argument replaces XXX to complete the Tree234 class's RotateLeft() member function?
+• void
+• RotateLeft
+• Node234
+• node
+• nodeParent
+• int
+• nodeIndex
+• -&gt;
+• GetChildIndex
+• );
+• leftSibling
+• GetChild
+• InsertKeyWithChildren
+• GetKey
+• ),
+• GetKeyCount
+• ()),
+• XXX
+• SetKey
+• ));
+• RemoveKey
+• node-&gt;GetChild(0)
+• node-&gt;GetChild(1)
+• node-&gt;GetChild(nodeIndex)
+
+
+========================================
+QUESTION #12  (qti_item_VE_IP_2.xml)
+========================================
+• Which is a valid B-tree?
+
+
+========================================
+QUESTION #13  (qti_item_VE_IP_20.xml)
+========================================
+• Which is the correct root node after fusion?
+
+
+========================================
+QUESTION #14  (qti_item_VE_IP_21.xml)
+========================================
+• In the following 2-3-4 tree, nodes 8 and 11 are fused. After fusion, what keys exist in the root's child 0?
+• Only 5
+• Only 10
+• 5, 8, and 10
+• 5, 10, and 11
+
+
+========================================
+QUESTION #15  (qti_item_VE_IP_22.xml)
+========================================
+• A 2-3-4 tree merge operates on a node with 1 key and increases the node's key count to 2 or 3 using either a(n) _____.
+• insertion or removal
+• removal or fusion
+• rotation or insertion
+• rotation or fusion
+
+
+========================================
+QUESTION #16  (qti_item_VE_IP_23.xml)
+========================================
+• A merge occurs on the node with key 20 in the following 2-3-4 tree. Which is the resulting tree?
+
+
+========================================
+QUESTION #17  (qti_item_VE_IP_24.xml)
+========================================
+• Key 45 is removed from the following 2-3-4 tree. Which is the resulting tree?
+
+
+========================================
+QUESTION #18  (qti_item_VE_IP_25.xml)
+========================================
+• Which expression replaces XXX to complete the Tree234 class's KeySwap() member function?
+• bool
+• KeySwap
+• Node234
+• node
+• int
+• existing
+• replacement
+• if
+• XXX
+• return
+• false
+• keyIndex
+• -&gt;
+• GetKeyIndex
+• );
+• ==
+• -1
+• next
+• NextNode
+• SetKey
+• true
+• node == root
+• node != root
+• node == nullptr
+• node != nullptr
+
+
+========================================
+QUESTION #19  (qti_item_VE_IP_26.xml)
+========================================
+• Is the following tree an AVL tree?
+• Yes, since the tree is a binary search tree (BST)
+• Yes, since both the left and right subtrees have height 0
+• No, since the tree is not a binary search tree (BST)
+• No, since both the left and right subtrees have height 0
+
+
+========================================
+QUESTION #20  (qti_item_VE_IP_27.xml)
+========================================
+• Which is a valid AVL tree?
+
+
+========================================
+QUESTION #21  (qti_item_VE_IP_28.xml)
+========================================
+• What is the minimum possible height of an AVL tree with the following keys?320, 470, 500, 540, 700, 650, 870
+
+
+========================================
+QUESTION #22  (qti_item_VE_IP_29.xml)
+========================================
+• Which is the correct equation to calculate the balance factor, B, of an AVL tree node N?
+• &#8722;
+
+
+========================================
+QUESTION #23  (qti_item_VE_IP_3.xml)
+========================================
+• A 2-3-4 tree
+• leaf
+• node with 2 keys has _____ children.
+
+
+========================================
+QUESTION #24  (qti_item_VE_IP_30.xml)
+========================================
+• Which is the worst-case height of AVL?
+• Less than or equal to 1.5 times compared to minimum binary tree height
+• Greater than or equal to 1.5 times compared to minimum binary tree height
+• Less than or equal to 1.5 times compared to maximum binary tree height
+• Greater than or equal to 1.5 times compared to maximum binary tree height
+
+
+========================================
+QUESTION #25  (qti_item_VE_IP_31.xml)
+========================================
+• Which is not a valid AVL tree due to being unbalanced?
+
+
+========================================
+QUESTION #26  (qti_item_VE_IP_32.xml)
+========================================
+• Identify the correct rotation to maintain the height balance of the AVL tree.
+
+
+========================================
+QUESTION #27  (qti_item_VE_IP_33.xml)
+========================================
+• Identify the correct rotation to maintain the height balance of the AVL tree.
+
+
+========================================
+QUESTION #28  (qti_item_VE_IP_34.xml)
+========================================
+• Which expression replaces XXX to complete the AVLNode class's UpdatedHeight() member function?
+• void
+• UpdateHeight
+• ()
+• int
+• leftHeight
+• -1
+• if
+• left
+• -&gt;
+• height
+• rightHeight
+• right
+• ((
+• &gt;
+• XXX
+
+
+========================================
+QUESTION #29  (qti_item_VE_IP_35.xml)
+========================================
+• Which statements replace the XXX to complete the AVLTree class's RotateRight() member function?
+• void
+• RotateRight
+• AVLNode
+• node
+• parent
+• -&gt;
+• GetParent
+• ();
+• leftChild
+• GetLeft
+• leftRightChild
+• GetRight
+• XXX
+• if
+• ReplaceChild
+• );
+• else
+• root
+• SetParent
+• nullptr
+• SetRight
+• SetLeft
+
+
+========================================
+QUESTION #30  (qti_item_VE_IP_36.xml)
+========================================
+• Which AVL tree results from inserting the new node into the AVL tree below?
+
+
+========================================
+QUESTION #31  (qti_item_VE_IP_37.xml)
+========================================
+• Which AVL tree results from inserting 5, 7, 9, and 11, in that order, into the AVL tree below?
+
+
+========================================
+QUESTION #32  (qti_item_VE_IP_38.xml)
+========================================
+• Which rotation turns the BST below into an AVL tree?
+• Right at P
+• Right at B
+• Left at P
+• Left at B
+
+
+========================================
+QUESTION #33  (qti_item_VE_IP_39.xml)
+========================================
+• If key _____ is inserted into the AVL tree below, no rotations are required.
+• 11
+• 61
+• 70
+• 85
+
+
+========================================
+QUESTION #34  (qti_item_VE_IP_4.xml)
+========================================
+• An order 3 B-tree's root node has keys 5 and 15. The root's middle subtree must
+• not
+• contain which key?
+• 14
+
+
+========================================
+QUESTION #35  (qti_item_VE_IP_40.xml)
+========================================
+• When a new node is inserted into an AVL tree, the insertion algorithm rebalances _____.
+• all nodes in the tree
+• only the new node's parent node
+• along the path of descendants from each of the new node's children down to a leaf
+• along the path of ancestors from the new node's parent up to the root
+
+
+========================================
+QUESTION #36  (qti_item_VE_IP_41.xml)
+========================================
+• Which AVL tree results from removing 60 from the tree below?
+
+
+========================================
+QUESTION #37  (qti_item_VE_IP_42.xml)
+========================================
+• What function is called first by the AVLTree class's RemoveKey() member function?
+• RemoveNode()
+• Rebalance()
+• Search()
+• Either RotateLeft() or RotateRight()
+
+
+========================================
+QUESTION #38  (qti_item_VE_IP_43.xml)
+========================================
+• Applying the following operations to the tree below results in which AVL tree?
+• Remove key 20
+• Remove key 41
+• Remove key 67
+
+
+========================================
+QUESTION #39  (qti_item_VE_IP_44.xml)
+========================================
+• What replaces the XXX to complete the following AVLTree class's Rebalance() member function?
+• void
+• Rebalance
+• AVLNode
+• node
+• -&gt;
+• UpdateHeight
+• ();
+• XXX
+• if
+• GetRight
+• ()
+• GetBalance
+• ==
+• RotateRight
+• ());
+• RotateLeft
+• );
+• else
+• GetLeft
+• -1
+• if (node-&gt;GetBalance() != 2)
+• if (node-&gt;GetBalance() == -2)
+• if (node-&gt;GetBalance() != -2)
+• if (node-&gt;GetBalance() == 0)
+
+
+========================================
+QUESTION #40  (qti_item_VE_IP_45.xml)
+========================================
+• Which statement about the AVL tree removal algorithm is true?
+• Rebalancing occurs starting at the root, down to the removed node's parent
+• Removal's worst case space complexity is O(log N)
+• Removal's worst case runtime complexity is O(N)
+• Removal starts with the standard BST removal algorithm
+
+
+========================================
+QUESTION #41  (qti_item_VE_IP_46.xml)
+========================================
+• Which is a red-black tree?
+
+
+========================================
+QUESTION #42  (qti_item_VE_IP_47.xml)
+========================================
+• Which red-black tree requirement is violated by the tree below?
+• The root node is black
+• Every node is colored either red or black
+• A red node&#8217;s children cannot be red
+• All paths from a node to any null leaf descendant node must have the same number of black nodes
+
+
+========================================
+QUESTION #43  (qti_item_VE_IP_48.xml)
+========================================
+• The red-black tree below remains valid if the color of nodes _____ are changed.
+• 55, 35, and 65
+• 65, 60, and 70
+• 35, 25, and 45
+• 25, 20, and 30
+
+
+========================================
+QUESTION #44  (qti_item_VE_IP_49.xml)
+========================================
+• Which red-black tree requirement is violated by the tree below?
+• All child nodes should have the same number of leaf nodes
+• All paths from a node to any null leaf descendant node must have the same number of black nodes
+• Red nodes need to have an equal number of leaf nodes
+• The root node should always be a red node with black leaf nodes
+
+
+========================================
+QUESTION #45  (qti_item_VE_IP_5.xml)
+========================================
+• A node in an order 4 B-tree that contains no children is called a(n) _____.
+• 3-node
+• empty node
+• leaf node
+• null node
+
+
+========================================
+QUESTION #46  (qti_item_VE_IP_50.xml)
+========================================
+• Which rotation on the following BST yields a valid red-black tree?
+• Left at 71
+• Left at 58
+• Right at 71
+• Right at 58
+
+
+========================================
+QUESTION #47  (qti_item_VE_IP_51.xml)
+========================================
+• Suppose node88, node55, and node22 are pointers to RBTNode instances. node22's parent and child pointers are all null. node88's left child is currently node55. Which operation is
+• not
+• performed by
+• node88-&gt;SetLeft(node22)
+• node22's parent is assigned with node88
+• node55's parent is assigned with nullptr
+• node88's left child pointer is assigned with node22
+• An if statement checks if node88's left child pointer is null
+
+
+========================================
+QUESTION #48  (qti_item_VE_IP_52.xml)
+========================================
+• The RedBlackTree class's RotateRight() member function has one parameter:
+• RBTNode* node
+• . If the
+• node
+• 's parent is null then the tree's root pointer _____.
+• is reassigned with
+• 's left child
+• 's right child
+• itself
+• remains unchanged
+
+
+========================================
+QUESTION #49  (qti_item_VE_IP_53.xml)
+========================================
+• A single rotation occurs on the tree below to yield which valid red-black tree?
+
+
+========================================
+QUESTION #50  (qti_item_VE_IP_54.xml)
+========================================
+• What steps comprise the red-black tree insert-node operation?
+• 1. Insert the node with the standard BST insertion algorithm 2. Color the node red 3. Balance the node
+• 1. Insert the node with the standard BST insertion algorithm 2. Color the node black 3. Balance the node's parent
+• 1. Color the node red 2. Insert the node as a child of the first black leaf node 3. Balance the node
+• 1. Color the node black 2. Insert the node as a child of the first red leaf node 3. Balance the node
+
+
+========================================
+QUESTION #51  (qti_item_VE_IP_55.xml)
+========================================
+• Which statements replace the XXX to complete the RBTNode class's GetGrandparent() function?
+• RBTNode
+• GetGrandparent
+• ()
+• const
+• XXX
+• return
+• parent
+• -&gt;
+• if
+• ==
+• nullptr
+• !=
+
+
+========================================
+QUESTION #52  (qti_item_VE_IP_56.xml)
+========================================
+• Which expression replaces the XXX to complete the RBTNode class's GetUncle() member function?
+• RBTNode
+• GetUncle
+• ()
+• const
+• grandparent
+• GetGrandparent
+• ();
+• if
+• ==
+• nullptr
+• return
+• XXX
+• -&gt;
+• right
+• left
+• grandparent-&gt;left == parent-&gt;parent
+• grandparent-&gt;parent == this
+• grandparent-&gt;right == parent
+• grandparent-&gt;left == parent
+
+
+========================================
+QUESTION #53  (qti_item_VE_IP_57.xml)
+========================================
+• What red-black tree results from the insertion of key 7 into the tree below?
+
+
+========================================
+QUESTION #54  (qti_item_VE_IP_58.xml)
+========================================
+• Which sequence of operations occur when inserting 35 into the following red-black tree?
+• Step 1. Insert 35 as node 40&#8217;s left child
+• Step 2. Color the parent, node 40, black
+• Step 3. Color the grandparent, node 45, red
+• Step 4. Rotate right at node 45
+• Step 2. Rotate right at node 40
+• Step 3. Color the parent, node 40, black
+• Step 4. Color the child, node 45, red
+• Step 2. Rotate left at node 40
+• Step 2. Rotate right at node 45
+• Step 3. Rotate left at node 40
+• Step 4. Color the parent, node 40, black
+
+
+========================================
+QUESTION #55  (qti_item_VE_IP_59.xml)
+========================================
+• Which statement about the red-black tree prepare-for-removal algorithm is
+• not
+• true?
+• If a case's condition is true then that case changes the tree
+• A case may recursively invoke the prepare-for-removal algorithm
+• A single case may recolor nodes and perform a rotation
+• More than one case may execute
+
+
+========================================
+QUESTION #56  (qti_item_VE_IP_6.xml)
+========================================
+• The 2-3-4 recursive search algorithm visits at most _____ per tree level.
+• one node
+• two nodes
+• three nodes
+• four nodes
+
+
+========================================
+QUESTION #57  (qti_item_VE_IP_60.xml)
+========================================
+• Which is the correct implementation of the RBTNode class's GetSibling() member function?
+• RBTNode
+• GetSibling
+• ()
+• const
+• if
+• parent
+• this
+• ==
+• -&gt;
+• left
+• return
+• right
+• nullptr
+
+
+========================================
+QUESTION #58  (qti_item_VE_IP_61.xml)
+========================================
+• When the red-black tree prepare-for-removal algorithm executes on node 82, what changes occur?
+• Node 90 is colored red and node 95 is colored black
+• A left rotation occurs at node 90
+• A right rotation occurs at node 90
+• No changes occur
+
+
+========================================
+QUESTION #59  (qti_item_VE_IP_62.xml)
+========================================
+• Which expression replaces the XXX to compete the RedBlackTree class's RemoveKey() member function?
+• bool
+• RemoveKey
+• int
+• key
+• RBTNode
+• node
+• Search
+• );
+• if
+• XXX
+• RemoveNode
+• return
+• true
+• false
+• node == nullptr
+• node != nullptr
+• node-&gt;left != nullptr
+• node-&gt;right != nullptr
+
+
+========================================
+QUESTION #60  (qti_item_VE_IP_7.xml)
+========================================
+• Which node is visited when searching key 13 in the following 2-3-4 tree?
+• The root&#8217;s child 0
+• The root&#8217;s child 1
+• The root&#8217;s child 2
+• The root&#8217;s child 3
+
+
+========================================
+QUESTION #61  (qti_item_VE_IP_8.xml)
+========================================
+• In the following 2-3-4 tree, what is returned by the search function when searching for key 10?
+• nullptr
+• The root&#8217;s child 0
+• The root&#8217;s child 1
+• The root&#8217;s child 2
+
+
+========================================
+QUESTION #62  (qti_item_VE_IP_9.xml)
+========================================
+• In the following B-tree, how many nodes are visited when searching for key 10?
+
+

@@ -1,0 +1,6 @@
+Download the Jupyter notebook file Visualization_TRADEDB.ipynb [URL] to your local drive.
+Download the database file TRADE_DB.db [URL] to your local drive.
+Open Google Colab: https://colab.research.google.com/
+In Colab, click File → Upload notebook, then select and upload Visualization_TRADEDB.ipynb from your local drive.
+After the notebook opens, upload the database file TRADE_DB.db to the Colab session by clicking the Files (folder icon) on the left panel, then selecting Upload, and choosing the file from your computer.
+Run each cell of Visualization_TRADEDB.ipynb one by one from top to bottom.

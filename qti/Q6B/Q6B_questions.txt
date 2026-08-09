@@ -1,0 +1,658 @@
+========================================
+QUESTION #1  (qti_item_VE_IP_1.xml)
+========================================
+• A breadth-first search of the following graph starts at vertex C. In what order might vertices be visited?
+• C, D, E, B, A
+• C, B, E, A, D
+• C, B, E, D, A
+• C, E, A, B, D
+
+
+========================================
+QUESTION #2  (qti_item_VE_IP_10.xml)
+========================================
+• RecursiveDFS() is called on the following graph with E as the starting vertex. The first
+• recursive
+• call that occurs passes which vertex as an argument?
+• Either B or D
+• Either A, B, or D
+
+
+========================================
+QUESTION #3  (qti_item_VE_IP_11.xml)
+========================================
+• As per Dijkstra's shortest path algorithm, which vertex is visited after starting from B?
+
+
+========================================
+QUESTION #4  (qti_item_VE_IP_12.xml)
+========================================
+• What is the shortest path from A to C?
+• A, B, C
+• A, D, E, C
+• A, C
+• A, D, C
+
+
+========================================
+QUESTION #5  (qti_item_VE_IP_13.xml)
+========================================
+• How does Dijsktra's algorithm initialize vertex distances?
+• Start vertex to &#8734;, all others to 0
+• Start vertex to 0, all others to &#8734;
+• All to 0
+• All to &#8734;
+
+
+========================================
+QUESTION #6  (qti_item_VE_IP_14.xml)
+========================================
+• After running Dijkstra's shortest path algorithm with T as the start vertex, what are the predecessor and distance of vertex Y?
+• W and 7
+• null and &#8734;
+• X and 8
+• T and 10
+
+
+========================================
+QUESTION #7  (qti_item_VE_IP_15.xml)
+========================================
+• At the start of each while loop iteration, the Graph class's DijkstraShortestPath() function assigns currentInfo with info for the _____ distance.
+• unvisited vertex with the minimum
+• visited vertex with the minimum
+• unvisited vertex with the maximum
+• visited vertex with the maximum
+
+
+========================================
+QUESTION #8  (qti_item_VE_IP_16.xml)
+========================================
+• If the Bellman-Ford algorithm executes for the following graph with start vertex T, how many iterations of the main loop execute?
+
+
+========================================
+QUESTION #9  (qti_item_VE_IP_17.xml)
+========================================
+• Using the Bellman-Ford algorithm, what is the length of the shortest path from T to V?
+• &#8722;2
+
+
+========================================
+QUESTION #10  (qti_item_VE_IP_18.xml)
+========================================
+• The Bellman-Ford shortest path algorithm works _____.
+• only on graphs with non-negative edge weights
+• on graphs with negative edge weights, but not negative edge weight cycles
+• only on graphs without cycles
+• on any graph
+
+
+========================================
+QUESTION #11  (qti_item_VE_IP_19.xml)
+========================================
+• Assuming the start vertex is W, using the Bellman-Ford algorithm, what is Y's distance and predecessor after the first main loop iteration?
+• 7 / X
+• 1 / W
+• 8 / W
+• 3 / X
+
+
+========================================
+QUESTION #12  (qti_item_VE_IP_2.xml)
+========================================
+• In which order might vertices be visited when doing a breadth-first search that starts at D?
+• B, F, G, H
+• B, H, G, F
+• B, H, F, G
+• F, B, H, G
+
+
+========================================
+QUESTION #13  (qti_item_VE_IP_20.xml)
+========================================
+• Which expression replaces XXX in the Bellman-Ford algorithm excerpt that checks for negative edge weight cycles?
+• for
+• Vertex
+• currentVertex
+• GetVertices
+• ())
+• Edge
+• edge
+• GetEdgesFrom
+• ))
+• adjacentVertex
+• -&gt;
+• toVertex
+• double
+• alternateDistance
+• info
+• ].
+• distance
+• weight
+• if
+• XXX
+• return
+• false
+• true
+• alternateDistance &lt; info[currentVertex].distance
+• alternateDistance &lt; info[adjacentVertex].distance
+• alternateDistance &gt; info[currentVertex].distance
+• alternateDistance &gt; info[adjacentVertex].distance
+
+
+========================================
+QUESTION #14  (qti_item_VE_IP_21.xml)
+========================================
+• Which is the last vertex in a valid topological sort?
+
+
+========================================
+QUESTION #15  (qti_item_VE_IP_22.xml)
+========================================
+• Which ordering is a valid topological sort for the following graph?
+• A, B, C, D, E
+• B, C, D, E, A
+• A, D, E, B, C
+• A, B, D, C, E
+
+
+========================================
+QUESTION #16  (qti_item_VE_IP_23.xml)
+========================================
+• Which vertices could be first in a topological sort of the following graph?
+• A only
+• E only
+• A or E
+• A or F
+
+
+========================================
+QUESTION #17  (qti_item_VE_IP_24.xml)
+========================================
+• What is the topological sort algorithm's worst-case runtime complexity?
+• O(V)
+• O(E)
+• O(V + E)
+• O(V * E)
+
+
+========================================
+QUESTION #18  (qti_item_VE_IP_25.xml)
+========================================
+• What is the total edge weight sum of the graph?
+• 11
+• 12
+• 22
+• 44
+
+
+========================================
+QUESTION #19  (qti_item_VE_IP_26.xml)
+========================================
+• Which is the minimum spanning tree for the following graph?
+
+
+========================================
+QUESTION #20  (qti_item_VE_IP_27.xml)
+========================================
+• The given graph does not have a minimum spanning tree because _____.
+• no path exists between vertex I and any other vertex
+• the graph is not directed
+• the graph has too many edges
+• the graph is weighted
+
+
+========================================
+QUESTION #21  (qti_item_VE_IP_28.xml)
+========================================
+• What is the first edge added to the result when executing Kruskal's minimum spanning tree algorithm?
+• FB
+• BG
+• CB
+• AB
+
+
+========================================
+QUESTION #22  (qti_item_VE_IP_29.xml)
+========================================
+• What is the shortest path length from A to C?
+• &#8722;3
+
+
+========================================
+QUESTION #23  (qti_item_VE_IP_3.xml)
+========================================
+• If a breadth-first search starts at vertex E, the last vertex to be visited will be vertex _____.
+
+
+========================================
+QUESTION #24  (qti_item_VE_IP_30.xml)
+========================================
+• The Floyd-Warshall algorithm executes for the following graph. How many entries in the resulting matrix are infinity?
+• 16
+
+
+========================================
+QUESTION #25  (qti_item_VE_IP_31.xml)
+========================================
+• Given the all pairs shortest path matrix for an acyclic graph, what is the shortest path length from A to E?
+• -9
+• -4
+
+
+========================================
+QUESTION #26  (qti_item_VE_IP_32.xml)
+========================================
+• The Floyd-Warshall all pairs shortest path algorithm produces which matrix for the following graph?
+
+
+========================================
+QUESTION #27  (qti_item_VE_IP_33.xml)
+========================================
+• How does the Floyd-Warshall all-pairs shortest path algorithm initialize the matrix before starting the main loop?
+• Assign all entries with infinity
+• 1) Assign all entries with infinity 2) For each entry representing from vertex X to vertex Y, assign with 0 only if the graph has an edge from X to Y
+• 1) Assign all entries with 0 2) For each graph edge from X to Y, assign the matrix entry for from-X-to-Y with the edge's weight 3) Assign each vertex-to-itself entry with infinity
+• 1) Assign all entries with infinity 2) Assign each vertex-to-itself entry with 0 3) For each graph edge from X to Y, assign the matrix entry for from-X-to-Y with the edge's weight
+
+
+========================================
+QUESTION #28  (qti_item_VE_IP_34.xml)
+========================================
+• How many vertices exist in the graph?
+• 11
+• 12
+
+
+========================================
+QUESTION #29  (qti_item_VE_IP_35.xml)
+========================================
+• How many edges exist in the graph?
+• 10
+
+
+========================================
+QUESTION #30  (qti_item_VE_IP_36.xml)
+========================================
+• What is the shortest path between vertices B and D?
+• x6, x3, x7
+• x1, x5
+• x2, x3, x4
+• x7, x4
+
+
+========================================
+QUESTION #31  (qti_item_VE_IP_37.xml)
+========================================
+• Which two vertices are adjacent?
+• A and E
+• B and E
+• A and C
+• B and D
+
+
+========================================
+QUESTION #32  (qti_item_VE_IP_38.xml)
+========================================
+• Which is a valid path between D and E?
+• x11, x12, x9
+• x6, x7, x12
+• x5, x1, x3
+• x9, x12, x10
+
+
+========================================
+QUESTION #33  (qti_item_VE_IP_39.xml)
+========================================
+• The following graph is connected. Removing the edge from _____ makes the graph disconnected.
+• B to C
+• D to A
+• E to B
+• E to C
+
+
+========================================
+QUESTION #34  (qti_item_VE_IP_4.xml)
+========================================
+• Assuming that a breadth-first search starts at E, which vertices are in the frontierQueue after vertices E, G, and D have been visited?
+• E, G
+• A, C
+• A, C, G
+• A, C, E, G
+
+
+========================================
+QUESTION #35  (qti_item_VE_IP_40.xml)
+========================================
+• In the following graph, which city is not directly connected to City 1?
+• City 5
+• City 2
+• City 7
+• City 6
+
+
+========================================
+QUESTION #36  (qti_item_VE_IP_41.xml)
+========================================
+• What is the shortest time taken to travel between A and G?
+• 17 min
+• 14 min
+• 15 min
+• 16 min
+
+
+========================================
+QUESTION #37  (qti_item_VE_IP_42.xml)
+========================================
+• Which cities are connected to City 6 directly?
+• City 4, City 7, and City 1
+• City 4, City 3, and City 2
+• City 5, City 7, and City 1
+• City 4, City 7, and City 2
+
+
+========================================
+QUESTION #38  (qti_item_VE_IP_43.xml)
+========================================
+• How many different paths from A to F take 15 minutes?
+
+
+========================================
+QUESTION #39  (qti_item_VE_IP_44.xml)
+========================================
+• Which vertices are adjacent to C?
+• B and E
+• B, D, and E
+• A, B, and E
+
+
+========================================
+QUESTION #40  (qti_item_VE_IP_45.xml)
+========================================
+• Which of the following best represents a sparse graph?
+
+
+========================================
+QUESTION #41  (qti_item_VE_IP_46.xml)
+========================================
+• The following adjacency list represents the friendship between people. Which statement is correct?
+• Harry is directly friends with Rody
+• Bob is directly friends with Hank
+• Hank can introduce Tim to Bob
+• Rita can introduce Bella to Tina
+
+
+========================================
+QUESTION #42  (qti_item_VE_IP_47.xml)
+========================================
+• Which of the following is the size of an adjacency list graph representation? V refers to the number of vertices, E the number of edges.
+• O(V + E)
+• O(V - E)
+• O(V * E)
+• O(V * 2E)
+
+
+========================================
+QUESTION #43  (qti_item_VE_IP_48.xml)
+========================================
+• Which is the adjacency matrix for the following graph?
+
+
+========================================
+QUESTION #44  (qti_item_VE_IP_49.xml)
+========================================
+• Which vertices are adjacent to C?
+• A and D
+• B and D
+• D and E
+• A and E
+
+
+========================================
+QUESTION #45  (qti_item_VE_IP_5.xml)
+========================================
+• Which two types of containers are used in the C++ Graph class's BreadthFirstSearch() member function?
+• stack and queue
+• unordered_set and queue
+• unordered_set and stack
+• vector and stack
+
+
+========================================
+QUESTION #46  (qti_item_VE_IP_50.xml)
+========================================
+• Which is the adjacency matrix for the following graph?
+
+
+========================================
+QUESTION #47  (qti_item_VE_IP_51.xml)
+========================================
+• Which is the graph for the given adjacency matrix?
+
+
+========================================
+QUESTION #48  (qti_item_VE_IP_52.xml)
+========================================
+• What is the terminating vertex of the directed edge with starting vertex B?
+
+
+========================================
+QUESTION #49  (qti_item_VE_IP_53.xml)
+========================================
+• Which statement is true?
+• A is adjacent to C
+• C is adjacent to E
+• C is adjacent to D
+• D is adjacent to E
+
+
+========================================
+QUESTION #50  (qti_item_VE_IP_54.xml)
+========================================
+• Which is a cycle in the following digraph?
+• B, D, E, C
+• B, E, C
+• A, B, D
+• A, D, E, C, B
+
+
+========================================
+QUESTION #51  (qti_item_VE_IP_55.xml)
+========================================
+• Which graph is acyclic?
+
+
+========================================
+QUESTION #52  (qti_item_VE_IP_56.xml)
+========================================
+• The weights indicate the frequency of buses between two stops. Most buses from stop B go to stop _____.
+
+
+========================================
+QUESTION #53  (qti_item_VE_IP_57.xml)
+========================================
+• Which is the shortest path from A to C?
+• A, D, E, C
+• A, B, C
+• A, B, D, E, C
+• A, D, B, C
+
+
+========================================
+QUESTION #54  (qti_item_VE_IP_58.xml)
+========================================
+• How many negative edge weight cycles exist in the following graph?
+
+
+========================================
+QUESTION #55  (qti_item_VE_IP_59.xml)
+========================================
+• The cycle length for A, C, D, A is _____.
+• -2
+• -4
+• -8
+
+
+========================================
+QUESTION #56  (qti_item_VE_IP_6.xml)
+========================================
+• A depth-first search occurs on the following graph with starting vertex B. In what order might vertices be visited?
+• B, E, A, C, D
+• B, C, E, A, D
+• B, A, D, E, C
+• B, D, C, E, A
+
+
+========================================
+QUESTION #57  (qti_item_VE_IP_60.xml)
+========================================
+• The C++ Vertex class represents a vertex in a graph. The class's only data member is _____.
+• label
+• weight
+• fromEdges
+• toEdges
+
+
+========================================
+QUESTION #58  (qti_item_VE_IP_61.xml)
+========================================
+• The C++ Graph class's fromEdges member is a(n) _____.
+• string
+• double
+• vector
+• unordered_map
+
+
+========================================
+QUESTION #59  (qti_item_VE_IP_62.xml)
+========================================
+• The C++ Graph class's AddVertex() function's return type is _____.
+• void
+• Edge*
+• Vertex*
+• vector&lt;Vertex*&gt;
+
+
+========================================
+QUESTION #60  (qti_item_VE_IP_63.xml)
+========================================
+• Which statement replaces XXX to complete the C++ Graph class's AddDirectedEdge() member function?
+• Edge
+• AddDirectedEdge
+• Vertex
+• fromVertex
+• toVertex
+• double
+• weight
+• 1.0
+• if
+• HasEdge
+• ))
+• return
+• nullptr
+• newEdge
+• new
+• );
+• fromEdges
+• -&gt;
+• push_back
+• XXX
+• toEdges[fromVertex]-&gt;push_back(newEdge);
+• fromEdges[fromVertex]-&gt;push_back(newEdge);
+• toEdges[toVertex]-&gt;push_back(newEdge);
+• fromEdges[toVertex]-&gt;push_back(newEdge);
+
+
+========================================
+QUESTION #61  (qti_item_VE_IP_64.xml)
+========================================
+• What is the correct name for the C++ Graph class's XXX() function below?
+• std
+• ::
+• pair
+• &lt;
+• Edge
+• *&gt;
+• XXX
+• Vertex
+• vertexA
+• vertexB
+• double
+• weight
+• 1.0
+• return
+• AddDirectedEdge
+• ),
+• ));
+• AddHalfEdge
+• AddUndirectedEdge
+• AddVertices
+
+
+========================================
+QUESTION #62  (qti_item_VE_IP_7.xml)
+========================================
+• A DFS traversal starting from vertex C will visit _____ last.
+• vertex A
+• vertex C
+• either vertex A or vertex D
+• either vertexA, vertex B, or vertex E
+
+
+========================================
+QUESTION #63  (qti_item_VE_IP_8.xml)
+========================================
+• Which statement replaces XXX to complete the Graph class's DepthFirstSearch() member function?
+• void
+• DepthFirstSearch
+• Vertex
+• startVertex
+• VertexVisitor
+• &amp;
+• visitor
+• using
+• namespace
+• std
+• stack
+• &lt;
+• *&gt;
+• vertexStack
+• unordered_set
+• visitedSet
+• push
+• );
+• while
+• size
+• ()
+• &gt;
+• currentVertex
+• top
+• ();
+• pop
+• if
+• ==
+• count
+• ))
+• Visit
+• insert
+• for
+• Edge
+• edge
+• GetEdgesFrom
+• XXX
+• vertexStack.push(edge-&gt;toVertex);
+• currentVertex = edge-&gt;toVertex;
+• vertexStack.push(edge-&gt;fromVertex);
+• currentVertex = edge-&gt;fromVertex;
+
+
+========================================
+QUESTION #64  (qti_item_VE_IP_9.xml)
+========================================
+• Assuming A is the starting vertex for DFS and B is at the top of the stack after the first iteration of the while loop, which vertices are in the stack after the second iteration of the while loop?
+• A, E, C
+• A, C, D
+• A, C, E
+• A, D, E
+
+
