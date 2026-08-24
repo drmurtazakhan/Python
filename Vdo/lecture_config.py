@@ -62,11 +62,11 @@ SLIDE_2 = {
     "video": "2.mp4",
 
     "text": """About me
-    - Ph.D. Engineering,
+- Ph.D. Engineering,
   Keio University, Japan
   Image/Video Compression
 - Database
 - Data analytics
 - Computer Graphics
 - AI"""
-    }
+}

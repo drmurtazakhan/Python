@@ -1,5 +1,4 @@
-# ============================================================
-# combine_slides.py
+# run: python combine_slides.py
 #
 # Combines the individual slide videos into one lecture video.
 #

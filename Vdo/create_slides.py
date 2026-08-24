@@ -1,5 +1,4 @@
-# ============================================================
-# create_slides.py
+# run: python create_slides.py
 #
 # Creates individual slide videos using FFmpeg.
 #
@@ -123,8 +122,7 @@ def create_slide(slide_number, slide):
 # CREATE SLIDES
 # ============================================================
 
-create_slide(1, SLIDE_1)
-
+# create_slide(1, SLIDE_1)
 create_slide(2, SLIDE_2)
 
 
