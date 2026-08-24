@@ -1,4 +1,4 @@
-import numpy as np
+#import numpy as np
 import pandas as pd
 import xgboost as xgb
 from xgboost import XGBClassifier
@@ -11,7 +11,8 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-df = pd.read_csv('C:/0MAK/RW/PythonKhan/AI/Diabetes/diabetes_prediction_dataset.csv')
+# df = pd.read_csv('C:/0MAK/RW/PythonKhan/AI/Diabetes/diabetes_prediction_dataset.csv')
+df = pd.read_csv('J:\Python\AI\Diabetes_XGBoost/diabetes_prediction_dataset.csv')
 
 ## to show all the columns
 ## pd.set_option("display.max_columns", None)
@@ -205,8 +206,8 @@ for bar, b0, b1 in zip(bmi_ax.containers[0], bmi_bins[:-1], bmi_bins[1:]):
     print(f'{b0:3d} - {b1:3d}: {bar.get_height():4.0f}')
 
 
-from sys import exit
-exit(0)
+#from sys import exit
+#exit(0)
 
 ## blood_glucose_level
 plt.figure(figsize=(10, 6))

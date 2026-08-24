@@ -1,9 +1,13 @@
 # File: display_asap_v2.py
 # Run: python display_asap_v2.py
 
+import sys
 import pandas as pd
 
-# Read ASAP-v2.xlsx
+# Reconfigure stdout to utf-8
+sys.stdout.reconfigure(encoding="utf-8")
+
+# Load dataset
 df = pd.read_excel("ASAP-v2.xlsx")
 
 print(f"Total Rows: {len(df)}")
@@ -13,7 +17,7 @@ print("\n--- Column Names in File ---")
 for col in df.columns:
     print(f"  - {col}")
 
-# Summary view of key metadata columns
+# Summary view
 print("\n--- Summary View (First 10 Rows) ---")
 print(
     df[[
@@ -34,14 +38,13 @@ for col in df.columns:
     val = first_record[col]
     print(f"\n[{col}]:")
     
-    # Check for empty/NaN cells
     if pd.isna(val):
         print("NaN")
     else:
-        # Convert to string, trim whitespace, and force a fresh newline after printing
-        text = str(val).strip()
+        # Convert to string and strip corrupt bytes that break PowerShell output
+        text = str(val).encode("ascii", "ignore").decode("ascii").strip()
         print(text)
 
-# Force an explicit newline and closing boundary so the prompt drops down
+# Force a clean newline buffer at the end
 print("\n" + "=" * 50)
-print("Done displaying record.\n")
+print("Done displaying record.\n\n", flush=True)
