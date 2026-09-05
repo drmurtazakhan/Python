@@ -1,7 +1,9 @@
 import os
 
 # Absolute path to your names.txt file
-file_path = r"K:\0MAK\RW\PythonKhan\FileProcess\FoldersFromNames\names.txt"
+# file_path = r"K:\0MAK\RW\PythonKhan\FileProcess\FoldersFromNames\names.txt"
+file_path = r"J:\Python\FileProcess\FoldersFromNames\names.txt"
+
 
 # Read folder names from file
 with open(file_path, "r") as f:

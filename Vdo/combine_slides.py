@@ -15,6 +15,10 @@ import subprocess
 slides = [
     "slide1.mp4",
     "slide2.mp4",
+    "slide3.mp4",
+    "slide4.mp4",
+    "slide5.mp4",
+    "slide6.mp4"
 ]
 
 
