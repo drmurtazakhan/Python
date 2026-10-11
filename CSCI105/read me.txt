@@ -1,0 +1,2 @@
+Python code for the course
+CSCI 105 Discrete Logic for Computers
